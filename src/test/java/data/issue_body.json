@@ -1,0 +1,55 @@
+{
+  "externalReference": "string",
+  "assetType": "CDB",
+  "issuanceData": {
+    "issueType": "Own",
+    "regime": "Register",
+    "settlementType": "NoSettlement"
+  },
+  "assetInfo": {
+    "operationValues": {
+      "quantity": 1,
+      "unitPrice": "123.45",
+      "totalAmount": "123.45"
+    },
+    "issueDate": "2019-08-24",
+    "dueDate": "2020-08-24",
+    "wallet": "string",
+    "interestType": "Simple",
+    "liquidityPeriods": [
+      {
+        "startDate": "2019-08-24",
+        "endDate": "2019-08-24",
+        "indexer": "PRE",
+        "interestRate": "12.75"
+      }
+    ],
+    "calculationModel": "252E",
+    "formOfPayment": "Final",
+    "additionalDescription": "string"
+  },
+  "stakeholders": {
+    "issuerDocument": "18786813000114",
+    "ownerDocument": "18786813000114"
+  },
+  "redemption": {
+    "allowed": true,
+    "startDate": "2019-08-24"
+  },
+  "regulatoryData": {
+    "modality": {
+      "type": "Simple"
+    }
+  },
+  "onus": {
+    "requesterDocument": "18786813000114",
+    "quantity": 1,
+    "totalAmount": "123.45",
+    "type": "FiduciaryAlienation",
+    "dueDate": "2020-08-24",
+    "onusExternalReference": "string",
+    "contractID": "string",
+    "inSCR": true,
+    "ipoc": "string"
+  }
+}
